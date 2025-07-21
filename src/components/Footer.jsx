@@ -9,7 +9,7 @@ export default function Footer() {
                 {/* Logo + Name */}
                 <div className="flex flex-col items-start">
                     <img
-                        src="/logos/young_lions_weiss.png"
+                        src="logos/young_lions_weiss.png"
                         alt="Vereinslogo"
                         className="h-12 w-auto mb-3"
                     />
