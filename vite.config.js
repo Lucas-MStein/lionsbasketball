@@ -3,6 +3,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-    base: '/lionsbasketball/', // ⬅️ Passe das an den Namen deines GitHub-Repos an!
+    base: '/lionsbasketball/', // ✅ GitHub Pages Subpfad
     plugins: [react()],
 });

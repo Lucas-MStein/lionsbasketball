@@ -10,17 +10,18 @@ import Impressum from './pages/Impressum';
 
 export default function App() {
     return (
-        <Router>
-            <MainLayout>
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/teams" element={<Teams />} />
-                    <Route path="/news" element={<News />} />
-                    <Route path="/contact" element={<Contact />} />
-                    <Route path="/impressum" element={<Impressum />} />
-                </Routes>
-            </MainLayout>
+        <Router basename="/lionsbasketball">
+            <Routes>
+                <Route path="/" element={<MainLayout />}>
+                    <Route index element={<Home />} />
+                    <Route path="about" element={<About />} />
+                    <Route path="teams" element={<Teams />} />
+                    <Route path="news" element={<News />} />
+                    <Route path="contact" element={<Contact />} />
+                    <Route path="impressum" element={<Impressum />} />
+                    <Route path="*" element={<Home />} />
+                </Route>
+            </Routes>
         </Router>
     );
 }

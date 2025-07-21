@@ -8,7 +8,7 @@ export default function Home() {
             <section
                 className="relative h-[70vh] flex items-center justify-center bg-top bg-cover bg-no-repeat"
                 style={{
-                    backgroundImage: "url('spieltag/4a3c8ded-afb9-46e1-938f-862862e64263.jpg')",
+                    backgroundImage: "url('/spieltag/4a3c8ded-afb9-46e1-938f-862862e64263.jpg')",
                 }}
             >
                 <div className="absolute inset-0 bg-black bg-opacity-50" />
