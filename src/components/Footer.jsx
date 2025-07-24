@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaInstagram, FaFacebookF, FaEnvelope } from 'react-icons/fa';
+import { FaInstagram, FaTiktok, FaEnvelope } from 'react-icons/fa';
 
 export default function Footer() {
     return (
@@ -20,12 +20,20 @@ export default function Footer() {
                 {/* Social Icons */}
                 <div className="flex justify-center md:justify-center space-x-6 text-xl">
                     <a
-                        href="https://instagram.com/tsvcalw_basketball"
+                        href="https://www.instagram.com/tsvcalw_basketballlions/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-white/70 transition"
                     >
                         <FaInstagram />
+                    </a>
+                    <a
+                        href="https://www.tiktok.com/@calw_basketball"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-white/70 transition"
+                    >
+                        <FaTiktok />
                     </a>
                     <a
                         href="mailto:basketball@tsvcalw.de"
