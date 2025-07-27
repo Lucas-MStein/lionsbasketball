@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Spielplan from "../components/Spielplan";
 
 export default function Home() {
     return (
@@ -34,6 +35,8 @@ export default function Home() {
                     </Link>
                 </div>
             </section>
+
+            <Spielplan />
 
             {/* ALBA-inspiriertes Grid */}
             <section className="py-16 px-4 bg-white">
